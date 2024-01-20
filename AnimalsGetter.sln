@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsGenerator", "Animals
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsSorter", "AnimalsSorter\AnimalsSorter.csproj", "{EBDE3692-7862-436E-805D-CFC0CA4444EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsFilter", "AnimalsFilter\AnimalsFilter.csproj", "{1BD98D53-C458-4BA1-9201-1CE55F2AA2B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EBDE3692-7862-436E-805D-CFC0CA4444EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDE3692-7862-436E-805D-CFC0CA4444EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDE3692-7862-436E-805D-CFC0CA4444EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD98D53-C458-4BA1-9201-1CE55F2AA2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD98D53-C458-4BA1-9201-1CE55F2AA2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD98D53-C458-4BA1-9201-1CE55F2AA2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD98D53-C458-4BA1-9201-1CE55F2AA2B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

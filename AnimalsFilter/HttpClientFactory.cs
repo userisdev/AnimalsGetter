@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 
-namespace AnimalsGetter
+namespace AnimalsFilter
 {
     /// <summary> HttpClientFactory class. </summary>
     internal static class HttpClientFactory
