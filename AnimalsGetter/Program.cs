@@ -10,18 +10,16 @@ using System.Xml.Linq;
 
 namespace AnimalsGetter
 {
-    internal static class HttpClientFactory
-    {
-        private static readonly HttpClient httpClient = new HttpClient();
 
-        public static HttpClient Create()
-        {
-            return httpClient;
-        }
-    }
-
+    /// <summary>
+    /// Program class.
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// Defines the entry point of the application.
+        /// </summary>
+        /// <param name="args">The arguments.</param>
         static async Task Main(string[] args)
         {
             var apiKey = args.FirstOrDefault();
@@ -60,7 +58,7 @@ namespace AnimalsGetter
                         }
 
                         File.WriteAllLines(savePath, list);
-                        Console.WriteLine($"{list.Count} items.");
+                        Console.WriteLine($"{query} {index}/{list.Count} items.");
 
                     }
                     else

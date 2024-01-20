@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsGetter", "AnimalsGetter\AnimalsGetter.csproj", "{0F2F5857-9442-49B5-9CFF-81C9BFAA5823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsGenerator", "AnimalsGenerator\AnimalsGenerator.csproj", "{46BB1CD9-EA44-4348-A360-C11FD7D93D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsSorter", "AnimalsSorter\AnimalsSorter.csproj", "{EBDE3692-7862-436E-805D-CFC0CA4444EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0F2F5857-9442-49B5-9CFF-81C9BFAA5823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F2F5857-9442-49B5-9CFF-81C9BFAA5823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F2F5857-9442-49B5-9CFF-81C9BFAA5823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BB1CD9-EA44-4348-A360-C11FD7D93D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BB1CD9-EA44-4348-A360-C11FD7D93D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BB1CD9-EA44-4348-A360-C11FD7D93D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BB1CD9-EA44-4348-A360-C11FD7D93D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDE3692-7862-436E-805D-CFC0CA4444EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDE3692-7862-436E-805D-CFC0CA4444EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDE3692-7862-436E-805D-CFC0CA4444EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDE3692-7862-436E-805D-CFC0CA4444EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
